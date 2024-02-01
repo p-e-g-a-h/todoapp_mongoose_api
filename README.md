@@ -3,23 +3,23 @@
 ### Installation
 
 1. Clone repository:
-  ```
-  git clone https://github.com/p-e-g-a-h/todoapp_mongoose_api.git
-  ```
+    ```
+    git clone https://github.com/p-e-g-a-h/todoapp_mongoose_api.git
+    ```
 2. Navigate to project directory:
-  ```
-  cd todoapp_mongoose_api
-  ```
+    ```
+    cd todoapp_mongoose_api
+    ```
 3. Install dependencies:
-  ```
-  npm install
-  ```
+    ```
+    npm install
+    ```
 4. Configure your MongoDB connection by updating the server/config/config.js file.
 
 5. Start server:
-  ```
-  npm run dev
-  ```
+    ```
+    npm run dev
+    ```
 
 ### API Routes
 
