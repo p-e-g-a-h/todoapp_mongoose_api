@@ -14,7 +14,7 @@
     ```
     npm install
     ```
-4. Configure your MongoDB connection by updating the server/config/config.js file.
+4. Configure your MongoDB connection by updating server/config/config.js file.
 
 5. Start server:
     ```
@@ -23,16 +23,16 @@
 
 ### API Routes
 
-#### Create Todo
+#### Create Todo and Get All Todos
 * URL: `/api/todos`
-* Method: `POST`
-* Request Body:
+* Method: `GET`, `POST`
+* Request Body (POST):
   ```
   {
     "text": "Your todo text here"
   }
   ```
-* Response:
+* Response (POST):
   ```
   {
     "_id": "todoId",
@@ -41,10 +41,7 @@
     "completedAt": null
   }
   ```
-#### Get All Todos
-* URL: `/api/todos`
-* Method: `GET`
-* Response:
+* Response (GET):
   ```
   [
     {
